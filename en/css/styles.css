@@ -52,11 +52,15 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('../imgs/00.jpg');
-  /*margin-top: 42.3px;*/
-  /*height: 70%;*/
+  background-size: contain;
+  background-position-y: 70px;
+  margin-top: 111px;
+  height: 70%;
   min-height: 483px;
 }
-
+.fistPharaph{
+  margin-top: -130px
+}
 /*Second image (Footer)*/
 .bgimg-2 {
   background-image: url("../imgs/footer.png");
